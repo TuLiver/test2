@@ -1,0 +1,129 @@
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+/* common_earth */
+.common_earth{
+    background-color: #F2F2F2;
+    padding:95px 0 134px 0;
+    max-width:1920px;
+    width:100%;
+}
+.earth{
+    max-width:1144px;
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+}
+.earth_text{
+    color: #818181;
+    margin-top: 12px;
+}
+.common_earth .earth img{
+    max-width: 900px;
+    width: 100%;
+    margin-top:20px;
+}
+
+/* common_car */
+.common_car{
+    max-width: 540px;
+    height: clamp(120px, 25.18vw,136px);
+    display: flex;
+    border-bottom: 1px solid #dcdcdc;
+}
+.car_img{
+    margin-right: 44px;
+    align-self: center;
+}
+.car_text{
+    padding-top: 40px;
+}
+
+/* common_referring */
+.common_referring{
+    max-width:1080px;
+    display:flex;
+    margin:0 auto;
+    width:100%;
+}
+.friendy{
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    padding:18px 25px 18px 18px;
+    background-color:#ecf3f4;
+    max-width:591px;
+    width:54.72%;
+}
+.friendy > p:nth-child(2){
+    margin-top: 10px;
+}
+.invite{
+    max-width: 148px;
+    width: 100%;
+    height: 50px;
+    margin-top:42px;
+    border-radius:4px;
+    background-color:#008489;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.invite p{
+    color: #fff;
+}
+.common_referring > img{
+    max-width:489px;
+    width:45.28%;
+    aspect-ratio: 489 / 220;
+}
+
+/* common_interesting */
+.common_interesting{
+    width: 100%;
+    max-width: 255px;
+}
+.interesting_img{
+    width: 100%;
+    aspect-ratio: 255 /156;
+}
+.interesting_content{
+    padding: 20px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+}
+.task_new{
+    display: flex;
+    align-items: center;
+}
+.infor_context{
+    height: 23px;
+    background: #F2F2F2;
+    padding: 2px 5px 3px;
+    border-radius: 24px;
+}
+.task_new > p{
+    margin-right: 3px;
+    color: #008489;
+}
+
+/* common_popular_city */
+.common_popular_city{
+    background-image:url("../img/chicago_parking.png");
+    height:196px;
+    width:100%;
+    text-align:center;
+    border-radius: 25px;
+    padding-top: 29px;
+    max-width:196px;
+    background-repeat: no-repeat;
+}
+
+
+
