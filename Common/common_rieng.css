@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+.bl_header{
+    border-left: 1px solid #DCDCDC;
+}
+.fs_12_mon{
+    font-size: 12px;
+    font-weight:400;
+    font-family:'Montserrat', sans-serif;
+    color:white
+}
+.fs_16_mon{
+    font-size: 16px;
+    font-weight:400;
+    font-family:'Montserrat', sans-serif;
+}
+.fs_14_mon{
+    font-size: 14px;
+    font-weight:400;
+    font-family:'Montserrat', sans-serif;
+}
+.fs_14_in{
+    font-size: 14px;
+    font-family:'Inter', sans-serif;
+    font-weight:400;
+}
+.fs_12_in{
+    font-size: 12px;
+    font-family:'Inter', sans-serif;
+    font-weight:400;
+}
+.fs_37_mon{
+    font-size: 37px;
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+}
+.fs_30{
+    font-size: 30px;
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+}
+.fs_16_in{
+    font-size: 16px;
+    font-family:'Inter', sans-serif;
+    font-weight:400;
+}
+.fs_18_mon{
+    font-size: 18px;
+    font-family:'Montserrat', sans-serif;
+    font-weight:400;
+}
+.fs_40_mon{
+    font-size: 40px;
+    font-family:'Montserrat', sans-serif;
+    font: weight 500;
+}
+.mt_32{
+    margin-top: 32px;
+}
+.pl_28{
+    padding-left: 28px;
+}
+.mt_8{
+    margin-top: 8px;
+}
+.mt_17{
+    margin-top: 17px;
+}
+.mt_38{
+    margin-top: 38px;
+}
+.mt_80{
+    margin-top: 80px;
+}
+.mt_16{
+    margin-top: 16px;
+}
+.pr_14{
+    padding-right: 14px;
+}
