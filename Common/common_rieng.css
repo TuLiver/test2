@@ -132,10 +132,46 @@
 .mt_16 {
   margin-top: 16px;
 }
-.none{
-  display: none;
+
+.pr_19 {
+  padding-right: 19px;
 }
 
+.pr_17 {
+  padding-right: 17px;
+}
+
+.pr_34 {
+  padding-right: 34px;
+}
+
+.pr_24 {
+  padding-right: 24px;
+}
+
+.pr_28 {
+  padding-right: 28px;
+}
+
+.pr_20 {
+  padding-right: 20px;
+}
+
+.pr_21 {
+  padding-right: 21px;
+}
+
+.pr_36 {
+  padding-right: 36px;
+}
+.none {
+  display: none;
+}
+@media (max-width: 800px) {
+  .none {
+    display: block;
+  }
+}
 
 @media (max-width: 800px) {
   .none{
