@@ -16,7 +16,12 @@
   line-height: 17px;
   color: white;
 }
+.fs_18_in{
+  font-size: 18px;
+  font-weight:400;
+  font-family:'Inter', sans-serif;
 
+}
 .fs_16_mon {
   font-size: 16px;
   font-weight: 400;
@@ -52,7 +57,7 @@
   line-height: 44px;
 }
 
-.fs_30 {
+.fs_30_mon {
   font-size: 30px;
   font-weight: 500;
   font-family: Montserrat;
@@ -74,7 +79,22 @@
   line-height: 26px;
   color: #fff;
 }
+.fs_40_mon{
+  font-size: 40px;
+  font-family:'Montserrat', sans-serif;
+  font-weight:500;
 
+}
+.fs_20_mon{
+  font-weight:500;
+  font-family:'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.fs_24_mon{
+  font-weight:400;
+  font-family:'Montserrat', sans-serif;
+  font-size: 20px;
+}
 .mt_32 {
   margin-top: 32px;
 }
@@ -94,7 +114,9 @@
 .mt_38 {
   margin-top: 38px;
 }
-
+.mt_28 {
+  margin-top: 28px;
+}
 .mt_80 {
   margin-top: 80px;
 }
@@ -147,6 +169,12 @@
 }
 @media (max-width: 800px) {
   .none {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .none{
     display: block;
   }
 }
