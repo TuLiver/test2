@@ -18,8 +18,8 @@ header {
   position: relative;
   overflow: hidden;
 }
-.menu_header a:hover{
-  background-color: #DCDCDC;
+.menu_header a:hover {
+  background-color: #dcdcdc;
 }
 .logo_header {
   position: absolute;
@@ -27,7 +27,7 @@ header {
   width: 104px;
   height: 41px;
   position: absolute;
-  left:min(100px, 5%);
+  left: min(100px, 5%);
 }
 .content_header {
   max-width: 823px;
@@ -129,9 +129,6 @@ header {
   right: 80px;
   display: flex;
   gap: 20px;
-  position: absolute;
-  right:80px;
-  bottom: 30px;
 }
 .ch_play {
   display: flex;
@@ -218,7 +215,7 @@ footer {
   text-align: left;
 }
 .footer_container_station {
-  width: 170px;
+  width: 175px;
   text-align: left;
 }
 .chplay_img {
@@ -482,7 +479,7 @@ hr {
 .common_interesting {
   width: 100%;
   max-width: 255px;
-  box-shadow: 0px 0px 28px 0px #0000000D inset;
+  box-shadow: 0px 0px 28px 0px #0000000d inset;
 }
 .interesting_img {
   width: 100%;
@@ -523,24 +520,23 @@ hr {
   background-repeat: no-repeat;
 }
 
-@media (max-width:800px) {
-  .footer_container_airport p:nth-child(n+6):nth-child(-n+18), 
-  .footer_container_insurance p:nth-child(n+6):nth-child(-n+16), 
-  .footer_container-city p:nth-child(n+4):nth-child(-n+15), 
-  .footer_container_car p:nth-child(n+6):nth-child(-n+17), 
-  .footer_container_station p:nth-child(n+7):nth-child(-n+14),
-  .footer_container_station img{
+@media (max-width: 800px) {
+  .footer_container_airport p:nth-child(n + 6):nth-child(-n + 18),
+  .footer_container_insurance p:nth-child(n + 6):nth-child(-n + 16),
+  .footer_container-city p:nth-child(n + 4):nth-child(-n + 15),
+  .footer_container_car p:nth-child(n + 6):nth-child(-n + 17),
+  .footer_container_station p:nth-child(n + 7):nth-child(-n + 14),
+  .footer_container_station img {
     display: none;
   }
-  .footer_container{
+  .footer_container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
-    gap:20px
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
   }
-  
 }
-@media (max-width:419px) {
-  .footer_container{
+@media (max-width: 419px) {
+  .footer_container {
     padding-left: 40px;
   }
 }

@@ -1,11 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../../Common/common_rieng.css" />
+    <link rel="stylesheet" href="../../Common/common_chung.css" />
+    <link rel="stylesheet" href="../parking/parking.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../../img/logo_header.png" alt="" class="logo_header" />
+      <svg
+        class="menu"
+        xmlns="http://www.w3.org/2000/svg"
+        width="50"
+        height="50"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          fill-rule="evenodd"
+          d="M3 16h18v2H3zm0-5h18v2H3zm0-5h18v2H3z"
+        />
+      </svg>
+      <div class="content_header">
+        <div class="menu_header">
+          <a class="content_p fs_16_in" href="../parking/parking.html"
+            >Parking</a
+          >
+          <a class="content_p fs_16_in" href="../insurance/insurance.html"
+            >Insurance</a
+          >
+          <a class="content_p fs_16_in" href="../car_wash/car.html">Car Wash</a>
+          <a class="content_p fs_16_in" href="../homepage/home.html"
+            >Homapage
+          </a>
+          <a class="content_p fs_16_in" href="../car_wash/car.html">Car Wash</a>
+          <a class="content_p fs_16_in" href="">Way+</a>
+          <a class="content_p fs_16_in" href="">Gas</a>
+          <a class="content_p fs_16_in" href="../ev_chargers/ev.html"
+            >EV Chargers</a
+          >
+        </div>
+        <p class="title_header">Book and Park, It’s that easy</p>
+        <div class="airport">
+          <div class="airport_p">
+            <p class="port_p fs_18_mon">Airport</p>
+          </div>
+          <p class="hourly_p fs_18_mon">Hourly</p>
+          <p class="monthly_p fs_18_mon">Monthly</p>
+        </div>
+        <div class="search_header">
+          <div class="all">
+            <p class="all_p fs_12_mon">All</p>
+            <img src="../../img/mui_ten_xuong.png" alt="" />
+          </div>
+          <div class="location_header pl_28">
+            <p class="fs_14_mon">Select your airport</p>
+            <p class="white_p fs_14_mon mt_8">Where are you going?</p>
+          </div>
+          <div class="checkin_header bl_header pl_28">
+            <p class="fs_14_mon">Checkin</p>
+            <p class="white_p fs_14_mon mt_8">Select Date/Time</p>
+          </div>
+          <div class="checkout_header bl_header pl_28">
+            <p class="fs_14_mon">Checkout</p>
+            <p class="white_p fs_14_mon mt_8">Select Date/Time</p>
+          </div>
+          <div class="search_btn_header">
+            <img src="../../img/search.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="give_header">
+        <img src="../../img/dola_img.png" alt="" class="dola_img" />
+        <p class="dola_text fs_14_mon">Give and Get $100</p>
+      </div>
+      <div class="rate_header">
+        <div class="ch_play">
+          <img src="../../img/chplay_imge.png" alt="" class="img_play" />
+          <div class="Evaluate_play">
+            <div class="star_img">
+              <img src="../../img/statr.png" alt="" />
+              <img src="../../img/statr.png" alt="" />
+              <img src="../../img/statr.png" alt="" />
+              <img src="../../img/statr.png" alt="" />
+              <img src="../../img/statr_trang.png" alt="" />
+            </div>
+            <p class="google">Google (4.9/5)</p>
+          </div>
+        </div>
+        <div class="ap_store">
+          <img src="../../img/appe.png" alt="" class="img_store" />
+          <div class="Evaluate_play">
+            <div class="star_img">
+              <img src="../../img/statr.png" alt="" />
+              <img src="../../img/statr.png" alt="" />
+              <img src="../../img/statr.png" alt="" />
+              <img src="../../img/statr.png" alt="" />
+              <img src="../../img/statr_trang.png" alt="" />
+            </div>
+            <p class="google fs_16_mon">Apple (4.9/5)</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="vehicle">
+      <div class="triangle">
+        <img src="../../img/tam giac.png" alt="" />
+      </div>
+      <div class="common_parking">
+        <img src="../../img/plane_image.png" alt="" class="plane" />
+        <p class="fs_16_mon">Airport Parking</p>
+      </div>
+      <div class="common_parking">
+        <img src="../../img/oto_city.png" alt="" class="plane" />
+        <p class="fs_16_mon">Airport Parking</p>
+      </div>
+      <div class="common_parking">
+        <img src="../../img/oto_pass.png" alt="" class="plane" />
+        <p class="fs_16_mon">Airport Parking</p>
+      </div>
+    </div>
+    <div class="common_earth">
+      <div class="earth">
+        <p class="fs_37_mon">Find the best parking rates by state</p>
+        <p class="fs_16_mon earth_text">
+          Find parking with the lowest rates in your state and start saving!
+        </p>
+        <img src="../../img/Europe.png" alt="" />
+      </div>
+    </div>
+    <div class="common_referring">
+      <div class="friendy">
+        <p class="fs_37_mon">Get $100 by referring a friend</p>
+        <p class="fs_14_mon">
+          You and your friend will each get $100 when they join Way and purchase
+          Way services.
+        </p>
+        <div class="invite">
+          <p class="fs_16_mon">Invite Now</p>
+        </div>
+      </div>
+      <img src="../../img/exchange.png" alt="" />
+    </div>
+    <div class="popular">
+      <p class="Popular_p fs_37_mon">Popular Cities</p>
+      <div class="home">
+        <div class="common_popular_city">
+          <p class="Chicago_p fs_18_mon">Chicago</p>
+        </div>
+        <div class="common_popular_city">
+          <p class="Chicago_p fs_18_mon">Austin</p>
+        </div>
+        <div class="common_popular_city">
+          <p class="Chicago_p fs_18_mon">Los Angeles</p>
+        </div>
+        <div class="common_popular_city">
+          <p class="Chicago_p fs_18_mon">New York</p>
+        </div>
+        <div class="common_popular_city">
+          <p class="Chicago_p fs_18_mon">San Francisco</p>
+        </div>
+      </div>
+      <p class="view_p">View More</p>
+    </div>
+    <div class="common_partners">
+      <p class="fs_37_mon">Our carwash Partners</p>
+      <div class="icon_partner">
+        <div class="arrow_left">
+          <img src="../../img/arrow-left.png" alt="" />
+        </div>
+        <div class="icon">
+          <img src="../../img/Tabpanel.png" alt="" class="sp_img" />
+          <img src="../../img/Tabpanel (1).png" alt="" class="propack_img" />
+          <img src="../../img/Tabpanel (2).png" alt="" class="laz_img" />
+          <img src="../../img/Tabpanel (3).png" alt="" class="lvr_img" />
+          <img src="../../img/Tabpanel (4).png" alt="" class="fly_img" />
+          <img src="../../img/Tabpanel (5).png" alt="" class="preimun_img" />
+        </div>
+        <div class="arrow_right">
+          <img src="../../img/arrow-right.png" alt="" />
+        </div>
+      </div>
+      <div class="dots">
+        <img src="../../img/Tablist → •.png" alt="" />
+        <img src="../../img/Tablist → • (1).png" alt="" />
+        <img src="../../img/Tablist → • (1).png" alt="" />
+        <img src="../../img/Tablist → • (1).png" alt="" />
+      </div>
+    </div>
+    <div class="popular">
+      <p class="popular_p fs_37_mon">Popular on Way</p>
+      <div class="lax_parking">
+        <div class="common_popular_on_way">
+          <img src="../../img/nature.png" alt="" />
+          <p class="fs_18_mon">LAX Parking</p>
+        </div>
+        <div class="common_popular_on_way">
+          <img src="../../img/nature1.png" alt="" />
+          <p class="fs_18_mon">SFO Parking</p>
+        </div>
+        <div class="common_popular_on_way">
+          <img src="../../img/nature2.png" alt="" />
+          <p class="fs_18_mon">JFK Parking</p>
+        </div>
+        <div class="common_popular_on_way">
+          <img src="../../img/nature3.png" alt="" />
+          <p class="fs_18_mon">MDW Parking</p>
+        </div>
+      </div>
+    </div>
+    <div class="common_come_onboard">
+      <p class="fs_37_mon">Partner With Way.com</p>
+      <div class="come mt_16">
+        <div class="content_wrap">
+          <p class="title mt_16">Come onboard</p>
+          <p class="us mt_16">
+            Grow your business by listing your service with us.
+          </p>
+          <div class="started mt_16">
+            <p class="fs_16_in">Get Started</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Interesting">
+      <p class="Reads_p fs_37_mon">Interesting Reads</p>
+      <div class="beautiful_landscape">
+        <div class="common_interesting">
+          <img
+            src="../../img/soccer_field.png"
+            alt=""
+            class="interesting_img"
+          />
+          <div class="interesting_content">
+            <div class="info">
+              <p class="infor_context fs_12_in">Travel Guides</p>
+              <p class="infor_context fs_12_in">City parking</p>
+              <p class="infor_context fs_12_in">City Parking Tips</p>
+            </div>
+            <p class="fs_16_mon mt_16">How to safely park your car in winter</p>
+            <p class="fs_14_in mt_16">
+              Waking up to snowfall is probably one of the best feelings to get
+              as we move...
+            </p>
+            <div class="task_new mt_16">
+              <p class="fs_14_mon">Safely Park Your Car</p>
+              <img src="../img/arrow-right-common.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="common_interesting">
+          <img src="../../img/oto.png" alt="" class="interesting_img" />
+          <div class="interesting_content">
+            <div class="info">
+              <p class="infor_context fs_12_in">Travel Guides</p>
+              <p class="infor_context fs_12_in">City parking</p>
+              <p class="infor_context fs_12_in">City Parking Tips</p>
+            </div>
+            <p class="fs_16_mon mt_16">How to safely park your car in winter</p>
+            <p class="fs_14_in mt_16">
+              Waking up to snowfall is probably one of the best feelings to get
+              as we move...
+            </p>
+            <div class="task_new mt_16">
+              <p class="fs_14_mon">Safely Park Your Car</p>
+              <img src="../img/arrow-right-common.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="common_interesting">
+          <img src="../../img/bridge.png" alt="" class="interesting_img" />
+          <div class="interesting_content">
+            <div class="info">
+              <p class="infor_context fs_12_in">Travel Guides</p>
+              <p class="infor_context fs_12_in">City parking</p>
+              <p class="infor_context fs_12_in">City Parking Tips</p>
+            </div>
+            <p class="fs_16_mon mt_16">How to safely park your car in winter</p>
+            <p class="fs_14_in mt_16">
+              Waking up to snowfall is probably one of the best feelings to get
+              as we move...
+            </p>
+            <div class="task_new mt_16">
+              <p class="fs_14_mon">Safely Park Your Car</p>
+              <img src="../img/arrow-right-common.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="common_interesting">
+          <img src="../../img/eatery.png" alt="" class="interesting_img" />
+          <div class="interesting_content">
+            <div class="info">
+              <p class="infor_context fs_12_in">Travel Guides</p>
+              <p class="infor_context fs_12_in">City parking</p>
+              <p class="infor_context fs_12_in">City Parking Tips</p>
+            </div>
+            <p class="fs_16_mon mt_16">How to safely park your car in winter</p>
+            <p class="fs_14_in mt_16">
+              Waking up to snowfall is probably one of the best feelings to get
+              as we move...
+            </p>
+            <div class="task_new mt_16">
+              <p class="fs_14_mon">Safely Park Your Car</p>
+              <img src="../img/arrow-right-common.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right_name">
+        <p class="View_p">View All</p>
+        <img src="../../img/mui_ten.png" alt="" class="arrow_img" />
+      </div>
+    </div>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_container_airport">
+          <p class="fs_18_mon">Airport Parking</p>
+          <p class="fs_12_mon mt_25">Airport Parking</p>
+          <p class="fs_12_mon mt_17">PHL airport parking</p>
+          <p class="fs_12_mon mt_17">LAX parking</p>
+          <p class="fs_12_mon mt_17">Newark airport parking</p>
+          <p class="fs_12_mon mt_17">PHL airport parking</p>
+          <p class="fs_12_mon mt_17">LAX parking</p>
+          <p class="fs_12_mon mt_17">Newark airport parking</p>
+          <p class="fs_12_mon mt_17">PHL airport parking</p>
+          <p class="fs_12_mon mt_17">LAX parking</p>
+          <p class="fs_12_mon mt_17">Newark airport parking</p>
+          <p class="fs_12_mon mt_17">PHL airport parking</p>
+          <p class="fs_12_mon mt_17">LAX parking</p>
+          <p class="fs_12_mon mt_17">Newark airport parking</p>
+          <p class="fs_12_mon mt_17">PHL airport parking</p>
+          <p class="fs_12_mon mt_17">LAX parking</p>
+          <p class="fs_12_mon mt_17">Newark airport parking</p>
+          <p class="fs_12_mon mt_17">LAX parking</p>
+          <p class="fs_12_mon mt_17 none">. . .</p>
+        </div>
+        <div class="footer_container_insurance">
+          <p class="fs_18_mon">Auto Insurance</p>
+          <p class="fs_12_mon mt_25">Auto Insurance</p>
+          <p class="fs_12_mon mt_17">Best Car Insurance Companies</p>
+          <p class="fs_12_mon mt_17">Car Insurance Quotes</p>
+          <p class="fs_12_mon mt_17">Cheap Car Insurance</p>
+          <p class="fs_12_mon mt_17">Best Car Insurance Companies</p>
+          <p class="fs_12_mon mt_17">Car Insurance Quotes</p>
+          <p class="fs_12_mon mt_17">Cheap Car Insurance</p>
+          <p class="fs_12_mon mt_17">Best Car Insurance Companies</p>
+          <p class="fs_12_mon mt_17">Car Insurance Quotes</p>
+          <p class="fs_12_mon mt_17">Cheap Car Insurance</p>
+          <p class="fs_12_mon mt_17">Best Car Insurance Companies</p>
+          <p class="fs_12_mon mt_17">Car Insurance Quotes</p>
+          <p class="fs_12_mon mt_17">Cheap Car Insurance</p>
+          <p class="fs_12_mon mt_17">Car Insurance Quotes</p>
+          <p class="fs_12_mon mt_17">Cheap Car Insurance</p>
+          <p class="fs_12_mon mt_17 none">. . .</p>
+        </div>
+        <div class="footer_container-city">
+          <p class="fs_18_mon">City Parking</p>
+          <p class="fs_12_mon mt_25">NYC Parking</p>
+          <p class="fs_12_mon mt_17">Chicago Parking</p>
+          <p class="fs_12_mon mt_17">LA City Parking</p>
+          <p class="fs_12_mon mt_17">Chicago Parking</p>
+          <p class="fs_12_mon mt_17">LA City Parking</p>
+          <p class="fs_12_mon mt_17">Chicago Parking</p>
+          <p class="fs_12_mon mt_17">LA City Parking</p>
+          <p class="fs_12_mon mt_17">Chicago Parking</p>
+          <p class="fs_12_mon mt_17">LA City Parking</p>
+          <p class="fs_12_mon mt_17">Chicago Parking</p>
+          <p class="fs_12_mon mt_17">LA City Parking</p>
+          <p class="fs_12_mon mt_17">Chicago Parking</p>
+          <p class="fs_12_mon mt_17">LA City Parking</p>
+          <p class="fs_12_mon mt_17">LA City Parking</p>
+          <p class="fs_12_mon mt_17 none">. . .</p>
+          <p class="fs_18_mon mt_38">Get Social</p>
+          <div class="social_footer">
+            <img
+              src="../img/List → Item → Link - Twitter → SVG.png"
+              alt=""
+              class="insta_img"
+            />
+            <img src="../img/List → Item → Link - Instagram → SVG.png" alt="" />
+            <img src="../img/List → Item → Link - Facebook → SVG.png" alt="" />
+            <img src="../img/List → Item → Link - Linkedin → SVG.png" alt="" />
+          </div>
+          <p class="blog_p fs_12_mon">Blog</p>
+        </div>
+        <div class="footer_container_car">
+          <p class="fs_18_mon">Car Wash</p>
+          <p class="fs_12_mon mt_25">Car Wash in Houston</p>
+          <p class="fs_12_mon mt_17">Car Wash in Minneapolis</p>
+          <p class="fs_12_mon mt_17">Car Wash in Tucson</p>
+          <p class="fs_12_mon mt_17">Car Wash in El Paso</p>
+          <p class="fs_12_mon mt_17">Car Wash in Minneapolis</p>
+          <p class="fs_12_mon mt_17">Car Wash in Tucson</p>
+          <p class="fs_12_mon mt_17">Car Wash in El Paso</p>
+          <p class="fs_12_mon mt_17">Car Wash in Minneapolis</p>
+          <p class="fs_12_mon mt_17">Car Wash in Tucson</p>
+          <p class="fs_12_mon mt_17">Car Wash in El Paso</p>
+          <p class="fs_12_mon mt_17">Car Wash in Minneapolis</p>
+          <p class="fs_12_mon mt_17">Car Wash in Tucson</p>
+          <p class="fs_12_mon mt_17">Car Wash in El Paso</p>
+          <p class="fs_12_mon mt_17">Car Wash in Minneapolis</p>
+          <p class="fs_12_mon mt_17">Car Wash in Tucson</p>
+          <p class="fs_12_mon mt_17">Car Wash in El Paso</p>
+          <p class="fs_12_mon mt_17">Car Wash in El Paso</p>
+          <p class="fs_12_mon mt_17 none">. . .</p>
+        </div>
+        <div class="footer_container_station">
+          <p class="fs_18_mon">Gas Station</p>
+          <p class="fs_12_mon mt_25">Gas Prices</p>
+          <p class="fs_12_mon mt_17">Gas Stations Near Me</p>
+          <p class="fs_18_mon mt_38">Let Us Help You</p>
+          <p class="fs_12_mon mt_25">About Us</p>
+          <p class="fs_12_mon mt_17">Careers</p>
+          <p class="fs_12_mon mt_17">Contact Us</p>
+          <p class="fs_12_mon mt_17">Terms and Conditions</p>
+          <p class="fs_12_mon mt_17">Student Discount</p>
+          <p class="fs_12_mon mt_17">Healthcare Worker Discount</p>
+          <p class="fs_12_mon mt_17">Sitemap</p>
+          <p class="fs_18_mon mt_38">Partners</p>
+          <p class="fs_12_mon mt_25">Partner with Us</p>
+          <p class="fs_18_mon mt_17">Download the App</p>
+          <p class="fs_12_mon mt_17 none">. . .</p>
+          <img src="../../img/gooleplay.png" alt="" class="chplay_img" />
+          <img src="../../img/apoole.png" alt="" class="appole_img" />
+        </div>
+        <div class="down none">
+          <p class="fs_18_mon mt_38">Partners</p>
+          <p class="fs_12_mon mt_25">Partner with Us</p>
+          <p class="fs_18_mon mt_17">Download the App</p>
+          <img src="../../img/gooleplay.png " alt="" class="chplay_img" />
+          <img src="../../img/apoole.png" alt="" class="appole_img" />
+        </div>
+      </div>
+      <p class="copyright_footer fs_12_mon">
+        Copyright © 2024 way.com. All rights reserved.
+      </p>
+    </footer>
+  </body>
 </html>
+
