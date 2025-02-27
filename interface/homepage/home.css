@@ -3,3 +3,356 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width:1920px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+}
+header{
+    background-image: url("../../img/header-home.jfif");
+    background-position: center;
+}
+.genuine_content_1, .all, header .fa-bars, .down{
+    display: none;
+}
+.content{
+    max-width:1120px;
+    margin-top:102px;
+    width:100%;
+    padding: 0 20px;
+}
+.header_paint{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 600px;
+}
+.logo_header, .content_header, .give_header, .rate_header{
+    z-index: 1;
+}
+.people{
+    display:flex;
+    border-bottom: 1px solid #DCDCDC;
+    margin-top:24px;
+    width:100%;
+    padding-bottom:4px;
+}
+.luxury_car{
+    width:100%;
+    justify-content:space-between;
+    display:flex;
+    margin-top: 69px;
+}
+.people p{
+    padding:12px 40px;
+    border-radius:42px;
+    transition: 0.5s;
+}
+.people p:hover{
+    background-color: #008489;
+    color:#fff;
+}
+.genuine{
+    max-width:498px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+.genuine_content{
+    max-width:540px;
+    width: 100%;
+}
+.genuine_image_1{
+    width:100%;
+    aspect-ratio: 498/280;
+    max-width:498px;
+}
+.genuine_image_2{
+    width:100%;
+    aspect-ratio: 434/396;
+    max-width:434px;
+}
+.genuine_content .common_car:nth-child(6){
+    border: 0;
+}
+
+/* referring-reads */
+.referring-reads{
+    max-width:1120px;
+    width:100%;
+    padding: 0 20px;
+}
+.referring{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+.referring .common_interesting:nth-child(4) .interesting_content >p:nth-child(2){
+    margin-top: 46px;
+}
+.view{
+    margin-right: 3px;
+    color: #008489;
+    align-items: center;
+    margin-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+footer {
+    margin-top: 53px;
+}
+
+.invite:hover{
+    background-color: #0084EB;
+}
+.task_new > a:hover, .view > a:hover{
+    color:#0084EB
+}
+.common_interesting{
+    overflow: hidden;
+}
+.interesting_img{
+    transition: transform 0.3s ease-in-out;
+}
+.interesting_img:hover{
+    transform: scale(1.2);
+}
+.task_new > a, .view > a{
+    color: #008489;
+    text-decoration: none;
+}
+.common_referring{
+    max-width: 1120px;
+    padding: 0 20px;
+}
+.dola_img {
+    margin-right: 8px;
+    transform: rotate(180deg);
+    transition: 0.75s ease;
+}
+.give_header:hover .dola_img {
+    transform: rotate(0deg);
+}
+.search_btn_header:hover {
+    background: #003092;
+    cursor: pointer;
+}
+.content_p {
+    padding: 6px 16px;
+    text-decoration: none;
+    transition: 0.4s linear;
+}
+.content_p:hover {
+    background: #f4f4f4;
+    color: #333333;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (max-width:1150px) {
+    header, .header_paint{
+        height: 500px;
+    }
+    .rate_header{
+        right: 40px;
+    }
+    .location_header{
+        max-width: 187px;
+        padding-left: 20px;
+    }
+    .checkin_header{
+        max-width: 192px;
+        padding-left: 20px;
+    }
+    .checkout_header{
+        max-width: 219px;
+        padding-left: 20px;
+    }
+    .menu_header{
+        display: none;
+    }
+    header .fa-bars{
+        display: block;
+        color: #000;
+        position: absolute;
+        right: min(100px, 5%);
+        font-size: 30px;
+    }
+    .search_header{
+        max-width: 670px;
+    }
+    .content_header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title_header{
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    .content {
+        margin-top: 80px;
+    }    
+    .luxury_car {
+        gap: 10px;
+    }
+    .car_img{
+        margin-right: 20px;
+    }
+    .referring{
+        gap:10px;
+    }    
+    .referring >p:first-child {
+        font-size: 30px;
+    }
+}
+@media (max-width:800px) {
+    header, .header_paint{
+        height: 400px;
+    }
+    .title_header{
+        font-size: 30px;
+    }
+    .ch_play{
+        max-width: 160px;
+        height: 45px;
+    }
+    .ap_store {
+        max-width: 145px;
+        height: 45px;
+    }
+    .white_p{
+        margin-top: 0;
+    }
+    .content {
+        margin-top: 60px;
+    }  
+    .genuine_content_1{
+        display: block;
+    }
+    .genuine_content, .checkin_header, .checkout_header{
+        display: none;
+    }
+    .luxury_car {
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .content > p:first-child, .referring-reads > p:first-child{
+        font-size: 30px;
+    }
+    .common_referring > img{
+        max-width: none;
+        width: 100%;
+    }
+    .friendy{
+        width: 100%;
+        border-right: 1px solid #000;
+        max-width: 650px;
+    }
+    .friendy > p:first-child{
+        font-size: 25px;
+    } 
+    .common_referring{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .referring{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .interesting_content p:nth-child(2){
+        font-size: 14px;
+    }  
+    .interesting_content p:nth-child(3){
+        font-size: 12px;
+    } 
+    .referring .common_interesting:nth-child(4) .interesting_content >p:nth-child(2){
+        margin-top: 16px;
+    }  
+    .people p{
+        padding: 12px 30px;
+    }
+    .common_referring, .referring-reads{
+        margin-top: 50px;
+    }
+    .all{
+        display: flex;
+        max-width: 133px;
+        width: 100%;
+        border-top-left-radius: 49px;
+        border-bottom-left-radius: 49px;
+        background-color: #E6F3F4;
+        justify-content: center;
+        align-items: center;
+        height: 57px;
+        gap:10px;
+    }
+    .search_header{
+        max-width: 460px;
+        padding: 6px;
+        height: 66px;
+    }
+    .search_btn_header{
+        width: 55px;
+        height: 55px;
+        margin-left: auto;
+    }
+    .down{
+        display: block;
+        text-align: left;
+    }
+    .common_interesting{
+        max-width: none;
+    }
+}
+
+@media (max-width:480px) {
+    .search_header{
+        max-width: 360px;
+        height: 56px;
+    }
+    .all{
+        max-width: 100px;
+        height: 46px;
+    }
+    .search_btn_header{
+        width: 47px;
+        height: 47px;
+    }
+    .title_header {
+        font-size: 20px;
+    }
+    .content {
+        margin-top: 40px;
+    }  
+    .luxury_car {
+        margin-top: 40px;
+    }
+    .people p{
+        font-size: 12px;
+    }
+    .content > p:first-child{
+        font-size: 25px;
+    }
+    .referring{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    .friendy > p:first-child{
+        font-size: 20px;
+    } 
+    .common_referring, .referring-reads{
+        margin-top: 30px;
+    }
+    .invite{
+        max-width: 120px;
+    }
+}
+
