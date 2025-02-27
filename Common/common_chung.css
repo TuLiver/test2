@@ -11,12 +11,14 @@ header {
   height: 600px;
   background-image: url("../img/header.png.jpg");
   display: flex;
-  padding: 37px 80px 30px 100px;
+  padding: 37px 0 30px 0px;
   position: relative;
 }
 .logo_header {
   width: 104px;
   height: 41px;
+  position: absolute;
+  left: min(100px, 5%);
 }
 .content_header {
   max-width: 823px;
@@ -102,9 +104,11 @@ header {
   margin-right: 8px;
 }
 .rate_header {
-  align-self: flex-end;
   display: flex;
   gap: 20px;
+  position: absolute;
+  right: 80px;
+  bottom: 30px;
 }
 .ch_play {
   display: flex;
@@ -191,7 +195,7 @@ footer {
   text-align: left;
 }
 .footer_container_station {
-  width: 170px;
+  width: 175px;
   text-align: left;
 }
 .chplay_img {
